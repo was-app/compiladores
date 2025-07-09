@@ -5,7 +5,7 @@ Este projeto implementa um compilador de códigos em **C**. O objetivo é propor
 ## Estrutura
 - **`scanner/`**: Contém o analisador léxico (scanner) e a configuração de calibração (regex) para a tokenização do código-fonte.
 	-  **`scanner.py`**: Implementação do analisador léxico.
-	-   **`calibration.py`**: Contém as definições de regex específicas para possíveis linguagens do analisador léxico (palavras-chave, operadores, etc.).
+	-  **`calibration.py`**: Contém as definições de regex específicas para possíveis linguagens do analisador léxico (palavras-chave, operadores, etc.).
 - **`main.py`**: Ponto de entrada para executar o compilador.
 
 ## Analisador Léxico
